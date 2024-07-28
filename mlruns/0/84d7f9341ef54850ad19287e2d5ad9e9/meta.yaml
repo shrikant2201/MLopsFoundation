@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BITS/SEM-3/MLOps/Assignment/shrikant/MLops_Foundation/mlruns/0/84d7f9341ef54850ad19287e2d5ad9e9/artifacts
+end_time: 1722100795341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 84d7f9341ef54850ad19287e2d5ad9e9
+run_name: luminous-snake-997
+run_uuid: 84d7f9341ef54850ad19287e2d5ad9e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722100780367
+status: 3
+tags: []
+user_id: aqu7bs

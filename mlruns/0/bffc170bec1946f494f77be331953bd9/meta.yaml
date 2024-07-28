@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BITS/SEM-3/MLOps/Assignment/shrikant/MLops_Foundation/mlruns/0/bffc170bec1946f494f77be331953bd9/artifacts
+end_time: 1722100651503
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bffc170bec1946f494f77be331953bd9
+run_name: legendary-midge-131
+run_uuid: bffc170bec1946f494f77be331953bd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722100632024
+status: 3
+tags: []
+user_id: aqu7bs

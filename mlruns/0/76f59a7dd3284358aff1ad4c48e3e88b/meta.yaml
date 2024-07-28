@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BITS/SEM-3/MLOps/Assignment/shrikant/MLops_Foundation/mlruns/0/76f59a7dd3284358aff1ad4c48e3e88b/artifacts
+end_time: 1722100237300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 76f59a7dd3284358aff1ad4c48e3e88b
+run_name: exultant-grouse-778
+run_uuid: 76f59a7dd3284358aff1ad4c48e3e88b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722100211753
+status: 3
+tags: []
+user_id: aqu7bs

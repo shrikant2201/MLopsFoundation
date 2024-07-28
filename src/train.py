@@ -9,15 +9,13 @@ import mlflow.sklearn
 # Set the MLflow tracking URI to a writable directory
 mlflow.set_tracking_uri("file://" + os.path.abspath("mlruns"))
 
-
 def train_model(alpha, l1_ratio):
     # Generate some sample data
     X = np.random.rand(100, 1)
     y = 2 * X + np.random.randn(100, 1)
 
     # Split the data
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     # Train a model
     model = LinearRegression()
@@ -31,7 +29,6 @@ def train_model(alpha, l1_ratio):
     print(f"Mean Squared Error: {mse}")
 
     return mse, model
-
 
 if __name__ == "__main__":
     alpha = 0.01

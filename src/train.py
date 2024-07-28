@@ -1,9 +1,13 @@
+import os
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import mlflow
 import mlflow.sklearn
+
+# Set the MLflow tracking URI to a writable directory
+mlflow.set_tracking_uri("file://" + os.path.abspath("mlruns"))
 
 
 def train_model(alpha, l1_ratio):
@@ -13,8 +17,7 @@ def train_model(alpha, l1_ratio):
 
     # Split the data
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
-    )
+        X, y, test_size=0.2, random_state=42)
 
     # Train a model
     model = LinearRegression()
@@ -31,8 +34,8 @@ def train_model(alpha, l1_ratio):
 
 
 if __name__ == "__main__":
-    alpha = 0.03
-    l1_ratio = 0.03
+    alpha = 0.01
+    l1_ratio = 0.01
 
     # Start MLflow run
     with mlflow.start_run():
